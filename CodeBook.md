@@ -28,6 +28,8 @@ Tidy data contains 180 rows (30 volunteers by 6 acrivities) with 66 measurement 
 
 ##VARIABLES DESCRIPTIONS
 
+Letters X, Y and Z in variable names indicate expansion in the axes.
+
 
 | Variables name                | Position (numbers of columns) | Explanations                                                                                                                     |
 |-------------------------------|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
