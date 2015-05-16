@@ -3,7 +3,7 @@
 
 ##RAW DATA
 
-Raw data as long as explanations of how it was collected could be found at [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+Raw data and explanations of how it was collected can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 Original data contains 10299 observations in 561 variables.
 
@@ -16,11 +16,11 @@ Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) 
 
 Tidy data contains 180 rows (30 volunteers by 6 acrivities) with 66 measurement plus two columns with ids and activities.  It is a result of running  "run_analysis.R" script of R language, which can be found in this repo. The script do the following:
 
-* download raw data file, unzip it and remove it to keep directory clean.
+* downloads raw data file, unzip it and removes it to keep directory clean.
 
-* read two sets (test and train) from raw data and combine them into one data set.
+* reads two sets (test and train) from raw data and combines them into one data set.
 
-* add columns with the id of  volunteers and activities they perform
+* adds columns with the id of volunteers and activities they perform
 
 * extracts only the measurements on the mean and standard deviation for each measurement.
 
@@ -28,7 +28,7 @@ Tidy data contains 180 rows (30 volunteers by 6 acrivities) with 66 measurement 
 
 ##VARIABLES DESCRIPTIONS
 
-Letters X, Y and Z in variable names indicate expansion in the axes.
+Tidy data can be found in averaged_data_set.txt in your working directory. Letters X, Y and Z in variable names indicate expansion in the axes.
 
 
 | Variables name                | Position (numbers of columns) | Explanations                                                                                                                     |
