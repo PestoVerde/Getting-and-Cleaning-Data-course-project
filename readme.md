@@ -9,6 +9,7 @@ This script is created for Getting and Cleaning Data course project. You need ju
 5. It combine to sets of raw data into one.
 6. It adds columns with the id of  volunteers and activities they perform
 7. It extracts only the measurements on the mean and standard deviation for each measurement.
+8. It checks do you have dplyr library and if not it uploads it. Then it attaches it. 
 8. It creates a tidy data set with the average of each variable for each activity and each subject.
 9. And finally it write "averaged_data_set.txt" file with tidy data into your working directory. It overwrites his old output to be sure you always have fresh tidy data.
 
